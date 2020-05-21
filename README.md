@@ -19,5 +19,7 @@ Total number of times the user recieved the angry 😡 emoji.
 Total number of times the user sent and recieved the words "amen", "akpe", "merci", "nagode", "imela", "thanks", "thank you", "alhamdulillah", "shukran".
 
  ## Getting started 
- clone the repository 
- Go to the clone folder and run index.html 
+ Clone the repository 
+ Go to the folder created by the clone repo 
+ and lauch index.html 
+ 
