@@ -70,3 +70,13 @@ body {
     padding-left: 2px;
     text-align: left;
 }
+
+.emoji_info {
+    /*margin-top: 50px;*/
+    /*display:flex;*/
+    /*justify-content:center;*/
+    margin-top: 50px;
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+}

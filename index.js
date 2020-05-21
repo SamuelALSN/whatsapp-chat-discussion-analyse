@@ -241,7 +241,7 @@ inputElement.addEventListener("change", () => {
          *
          */
 
-            // let emojiSection = document.getElementsByClassName("emoji_info")
+        let emojiSection = document.getElementsByClassName("emoji_info")[0]
         let emojiPerUser = getEmojisReceivedByUser(file)
 
         for (let key in emojiPerUser) {
@@ -252,7 +252,7 @@ inputElement.addEventListener("change", () => {
             let ol_element = document.createElement("ol")
             article.appendChild(paragraph)
             article.appendChild(ol_element)
-            section.appendChild(article)
+            emojiSection.appendChild(article)
             for (let secondKey in emojiPerUser[key]) {
                 if (emojiPerUser[key].hasOwnProperty(secondKey)) {
                     ul_element = document.createElement("ul")
