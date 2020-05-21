@@ -49,6 +49,12 @@ body {
     justify-content:center;
     flex-direction:row;
 }
+
+.users_info > h3 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
 .user_details {
     display: flex;
     flex-direction: column;
@@ -58,4 +64,9 @@ body {
     margin: 10px;
     border: 1px solid #f3f1f1;
     border-radius: 3px;
+}
+
+.user_details > ol > ul {
+    padding-left: 2px;
+    text-align: left;
 }
