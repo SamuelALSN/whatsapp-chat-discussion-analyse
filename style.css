@@ -62,7 +62,7 @@ body {
     text-align: center;
     width: calc(100% / 3);
     margin: 10px;
-    border: 1px solid #f3f1f1;
+    border: 2px solid #ad8f8f;
     border-radius: 3px;
 }
 
@@ -72,9 +72,6 @@ body {
 }
 
 .emoji_info {
-    /*margin-top: 50px;*/
-    /*display:flex;*/
-    /*justify-content:center;*/
     margin-top: 50px;
     display:flex;
     justify-content:center;
