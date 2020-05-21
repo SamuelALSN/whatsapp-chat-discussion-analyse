@@ -2,18 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css" type="text/css">
     <title>Analyse whatsapp chat discussions</title>
 </head>
 <body>
 <div id="container">
-    <label for="file_input"> Load file </label>
-    <input type="file" id="file_input"  />
-    <br/>
-    <hr/>
-    <h3>Contents of the Text file:</h3>
-    <div id="main">
-        ...
-    </div>
+    <form id ="file_form" action="">
+        <div class="form-control">
+            <label for="file_input"> Load Chat history File  </label>
+            <input type="file" id="file_input"/>
+        </div>
+    </form>
+    <section class="users_info">
+           <article class="user_details">
+                <div class="user_name">TEST</div>
+           </article>
+    </section>
 </div>
 <script src="./index.js"></script>
 </body>
